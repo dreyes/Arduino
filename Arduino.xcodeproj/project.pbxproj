@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		593B7A1618EE574C0097A5BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593B7A1518EE574C0097A5BF /* Foundation.framework */; };
+		593B7A1818EE574C0097A5BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593B7A1718EE574C0097A5BF /* CoreGraphics.framework */; };
+		593B7A1A18EE574C0097A5BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593B7A1918EE574C0097A5BF /* UIKit.framework */; };
+		593B7A2018EE574C0097A5BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 593B7A1E18EE574C0097A5BF /* InfoPlist.strings */; };
+		593B7A2218EE574C0097A5BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 593B7A2118EE574C0097A5BF /* main.m */; };
+		593B7A2618EE574C0097A5BF /* dsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 593B7A2518EE574C0097A5BF /* dsAppDelegate.m */; };
+		593B7A2918EE574C0097A5BF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593B7A2718EE574C0097A5BF /* Main_iPhone.storyboard */; };
+		593B7A2C18EE574C0097A5BF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593B7A2A18EE574C0097A5BF /* Main_iPad.storyboard */; };
+		593B7A2F18EE574C0097A5BF /* dsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 593B7A2E18EE574C0097A5BF /* dsViewController.m */; };
+		593B7A3118EE574C0097A5BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593B7A3018EE574C0097A5BF /* Images.xcassets */; };
+		593B7A3818EE574C0097A5BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593B7A3718EE574C0097A5BF /* XCTest.framework */; };
+		593B7A3918EE574C0097A5BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593B7A1518EE574C0097A5BF /* Foundation.framework */; };
+		593B7A3A18EE574C0097A5BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593B7A1918EE574C0097A5BF /* UIKit.framework */; };
+		593B7A4218EE574C0097A5BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 593B7A4018EE574C0097A5BF /* InfoPlist.strings */; };
+		593B7A4418EE574C0097A5BF /* ArduinoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 593B7A4318EE574C0097A5BF /* ArduinoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		593B7A3B18EE574C0097A5BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 593B7A0A18EE574C0097A5BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593B7A1118EE574C0097A5BF;
+			remoteInfo = Arduino;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		593B7A1218EE574C0097A5BF /* Arduino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arduino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		593B7A1518EE574C0097A5BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		593B7A1718EE574C0097A5BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		593B7A1918EE574C0097A5BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		593B7A1D18EE574C0097A5BF /* Arduino-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Arduino-Info.plist"; sourceTree = "<group>"; };
+		593B7A1F18EE574C0097A5BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		593B7A2118EE574C0097A5BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		593B7A2318EE574C0097A5BF /* Arduino-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Arduino-Prefix.pch"; sourceTree = "<group>"; };
+		593B7A2418EE574C0097A5BF /* dsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dsAppDelegate.h; sourceTree = "<group>"; };
+		593B7A2518EE574C0097A5BF /* dsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dsAppDelegate.m; sourceTree = "<group>"; };
+		593B7A2818EE574C0097A5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		593B7A2B18EE574C0097A5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		593B7A2D18EE574C0097A5BF /* dsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dsViewController.h; sourceTree = "<group>"; };
+		593B7A2E18EE574C0097A5BF /* dsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dsViewController.m; sourceTree = "<group>"; };
+		593B7A3018EE574C0097A5BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		593B7A3618EE574C0097A5BF /* ArduinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArduinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		593B7A3718EE574C0097A5BF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		593B7A3F18EE574C0097A5BF /* ArduinoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArduinoTests-Info.plist"; sourceTree = "<group>"; };
+		593B7A4118EE574C0097A5BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		593B7A4318EE574C0097A5BF /* ArduinoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArduinoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		593B7A0F18EE574C0097A5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593B7A1818EE574C0097A5BF /* CoreGraphics.framework in Frameworks */,
+				593B7A1A18EE574C0097A5BF /* UIKit.framework in Frameworks */,
+				593B7A1618EE574C0097A5BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593B7A3318EE574C0097A5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593B7A3818EE574C0097A5BF /* XCTest.framework in Frameworks */,
+				593B7A3A18EE574C0097A5BF /* UIKit.framework in Frameworks */,
+				593B7A3918EE574C0097A5BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		593B7A0918EE574C0097A5BF = {
+			isa = PBXGroup;
+			children = (
+				593B7A1B18EE574C0097A5BF /* Arduino */,
+				593B7A3D18EE574C0097A5BF /* ArduinoTests */,
+				593B7A1418EE574C0097A5BF /* Frameworks */,
+				593B7A1318EE574C0097A5BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		593B7A1318EE574C0097A5BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				593B7A1218EE574C0097A5BF /* Arduino.app */,
+				593B7A3618EE574C0097A5BF /* ArduinoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		593B7A1418EE574C0097A5BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				593B7A1518EE574C0097A5BF /* Foundation.framework */,
+				593B7A1718EE574C0097A5BF /* CoreGraphics.framework */,
+				593B7A1918EE574C0097A5BF /* UIKit.framework */,
+				593B7A3718EE574C0097A5BF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		593B7A1B18EE574C0097A5BF /* Arduino */ = {
+			isa = PBXGroup;
+			children = (
+				593B7A2418EE574C0097A5BF /* dsAppDelegate.h */,
+				593B7A2518EE574C0097A5BF /* dsAppDelegate.m */,
+				593B7A2718EE574C0097A5BF /* Main_iPhone.storyboard */,
+				593B7A2A18EE574C0097A5BF /* Main_iPad.storyboard */,
+				593B7A2D18EE574C0097A5BF /* dsViewController.h */,
+				593B7A2E18EE574C0097A5BF /* dsViewController.m */,
+				593B7A3018EE574C0097A5BF /* Images.xcassets */,
+				593B7A1C18EE574C0097A5BF /* Supporting Files */,
+			);
+			path = Arduino;
+			sourceTree = "<group>";
+		};
+		593B7A1C18EE574C0097A5BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				593B7A1D18EE574C0097A5BF /* Arduino-Info.plist */,
+				593B7A1E18EE574C0097A5BF /* InfoPlist.strings */,
+				593B7A2118EE574C0097A5BF /* main.m */,
+				593B7A2318EE574C0097A5BF /* Arduino-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		593B7A3D18EE574C0097A5BF /* ArduinoTests */ = {
+			isa = PBXGroup;
+			children = (
+				593B7A4318EE574C0097A5BF /* ArduinoTests.m */,
+				593B7A3E18EE574C0097A5BF /* Supporting Files */,
+			);
+			path = ArduinoTests;
+			sourceTree = "<group>";
+		};
+		593B7A3E18EE574C0097A5BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				593B7A3F18EE574C0097A5BF /* ArduinoTests-Info.plist */,
+				593B7A4018EE574C0097A5BF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		593B7A1118EE574C0097A5BF /* Arduino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593B7A4718EE574C0097A5BF /* Build configuration list for PBXNativeTarget "Arduino" */;
+			buildPhases = (
+				593B7A0E18EE574C0097A5BF /* Sources */,
+				593B7A0F18EE574C0097A5BF /* Frameworks */,
+				593B7A1018EE574C0097A5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arduino;
+			productName = Arduino;
+			productReference = 593B7A1218EE574C0097A5BF /* Arduino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		593B7A3518EE574C0097A5BF /* ArduinoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593B7A4A18EE574C0097A5BF /* Build configuration list for PBXNativeTarget "ArduinoTests" */;
+			buildPhases = (
+				593B7A3218EE574C0097A5BF /* Sources */,
+				593B7A3318EE574C0097A5BF /* Frameworks */,
+				593B7A3418EE574C0097A5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				593B7A3C18EE574C0097A5BF /* PBXTargetDependency */,
+			);
+			name = ArduinoTests;
+			productName = ArduinoTests;
+			productReference = 593B7A3618EE574C0097A5BF /* ArduinoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		593B7A0A18EE574C0097A5BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ds;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = dReyes;
+				TargetAttributes = {
+					593B7A3518EE574C0097A5BF = {
+						TestTargetID = 593B7A1118EE574C0097A5BF;
+					};
+				};
+			};
+			buildConfigurationList = 593B7A0D18EE574C0097A5BF /* Build configuration list for PBXProject "Arduino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 593B7A0918EE574C0097A5BF;
+			productRefGroup = 593B7A1318EE574C0097A5BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				593B7A1118EE574C0097A5BF /* Arduino */,
+				593B7A3518EE574C0097A5BF /* ArduinoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		593B7A1018EE574C0097A5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593B7A2C18EE574C0097A5BF /* Main_iPad.storyboard in Resources */,
+				593B7A3118EE574C0097A5BF /* Images.xcassets in Resources */,
+				593B7A2918EE574C0097A5BF /* Main_iPhone.storyboard in Resources */,
+				593B7A2018EE574C0097A5BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593B7A3418EE574C0097A5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593B7A4218EE574C0097A5BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		593B7A0E18EE574C0097A5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593B7A2F18EE574C0097A5BF /* dsViewController.m in Sources */,
+				593B7A2218EE574C0097A5BF /* main.m in Sources */,
+				593B7A2618EE574C0097A5BF /* dsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593B7A3218EE574C0097A5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593B7A4418EE574C0097A5BF /* ArduinoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		593B7A3C18EE574C0097A5BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 593B7A1118EE574C0097A5BF /* Arduino */;
+			targetProxy = 593B7A3B18EE574C0097A5BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		593B7A1E18EE574C0097A5BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593B7A1F18EE574C0097A5BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		593B7A2718EE574C0097A5BF /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593B7A2818EE574C0097A5BF /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		593B7A2A18EE574C0097A5BF /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593B7A2B18EE574C0097A5BF /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		593B7A4018EE574C0097A5BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593B7A4118EE574C0097A5BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		593B7A4518EE574C0097A5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		593B7A4618EE574C0097A5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		593B7A4818EE574C0097A5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arduino/Arduino-Prefix.pch";
+				INFOPLIST_FILE = "Arduino/Arduino-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		593B7A4918EE574C0097A5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arduino/Arduino-Prefix.pch";
+				INFOPLIST_FILE = "Arduino/Arduino-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		593B7A4B18EE574C0097A5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Arduino.app/Arduino";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arduino/Arduino-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ArduinoTests/ArduinoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		593B7A4C18EE574C0097A5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Arduino.app/Arduino";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arduino/Arduino-Prefix.pch";
+				INFOPLIST_FILE = "ArduinoTests/ArduinoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		593B7A0D18EE574C0097A5BF /* Build configuration list for PBXProject "Arduino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593B7A4518EE574C0097A5BF /* Debug */,
+				593B7A4618EE574C0097A5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593B7A4718EE574C0097A5BF /* Build configuration list for PBXNativeTarget "Arduino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593B7A4818EE574C0097A5BF /* Debug */,
+				593B7A4918EE574C0097A5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		593B7A4A18EE574C0097A5BF /* Build configuration list for PBXNativeTarget "ArduinoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593B7A4B18EE574C0097A5BF /* Debug */,
+				593B7A4C18EE574C0097A5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 593B7A0A18EE574C0097A5BF /* Project object */;
+}
